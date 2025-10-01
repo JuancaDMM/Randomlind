@@ -1,0 +1,22 @@
+{
+  "id": "arako_1011-70-4025",
+  "name": "arako",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16678456-waypoint-icon.png",
+  "x": 1011,
+  "y": 70,
+  "z": 4025,
+  "r": 1,
+  "g": 129,
+  "b": 200,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

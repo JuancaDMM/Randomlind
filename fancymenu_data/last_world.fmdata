@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Juanca/Downloads/mmc-develop-win32/MultiMC/instances/randomsland back/.minecraft/saves/Mundo nuevo
+}
+

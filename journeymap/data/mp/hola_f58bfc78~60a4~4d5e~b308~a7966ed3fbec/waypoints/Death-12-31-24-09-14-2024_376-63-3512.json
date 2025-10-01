@@ -1,0 +1,22 @@
+{
+  "id": "Death-12-31-24-09-14-2024_376-63-3512",
+  "name": "Death 12:31:24 09-14-2024",
+  "icon": "journeymap:ui/img/waypoint-death-icon.png",
+  "colorizedIcon": "fake:color--9309675-waypoint-death-icon.png",
+  "x": 376,
+  "y": 63,
+  "z": 3512,
+  "r": 113,
+  "g": 242,
+  "b": 21,
+  "enable": true,
+  "type": "Death",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

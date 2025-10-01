@@ -1,0 +1,26 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "simpleplanes:planes_book": {
+      "viewedEntries": [
+        "simpleplanes:engines/electric_engine",
+        "simpleplanes:upgrades/booster",
+        "simpleplanes:upgrades/shooter",
+        "simpleplanes:upgrades/floaty_bedding",
+        "simpleplanes:misc/charging_station",
+        "simpleplanes:misc/banners"
+      ],
+      "bookmarks": [],
+      "history": [
+        "simpleplanes:misc/charging_station",
+        "simpleplanes:engines/electric_engine",
+        "simpleplanes:misc/banners",
+        "simpleplanes:upgrades/floaty_bedding",
+        "simpleplanes:upgrades/shooter",
+        "simpleplanes:upgrades/booster"
+      ],
+      "completedManualQuests": []
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "SPAWN-CHUNKS_7-67-65",
+  "name": "SPAWN CHUNKS",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16428336-waypoint-icon.png",
+  "x": 7,
+  "y": 67,
+  "z": -65,
+  "r": 5,
+  "g": 82,
+  "b": 208,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

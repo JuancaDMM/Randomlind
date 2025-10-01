@@ -1,0 +1,22 @@
+{
+  "id": "aca_-56-50-239",
+  "name": "aca",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--8511198-waypoint-icon.png",
+  "x": -56,
+  "y": 50,
+  "z": -239,
+  "r": 126,
+  "g": 33,
+  "b": 34,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:flatroom"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

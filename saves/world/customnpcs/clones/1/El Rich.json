@@ -1,0 +1,465 @@
+{
+    "ReturnToStart": 1b,
+    "Brain": {
+        "memories": {
+        }
+    },
+    "NpcInv": [
+    ],
+    "BossColor": 6,
+    "PotionEffect": 1,
+    "Size": 19,
+    "stopAndInteract": 1b,
+    "Resistances": {
+        "Arrow": 1.7183099f,
+        "Explosion": 1.5070423f,
+        "Knockback": 1.6197183f,
+        "Melee": 1.4507042f
+    },
+    "BossBar": 1b,
+    "RespawnTime": 0,
+    "NpcAngrySound": "",
+    "ReactsToFire": 0b,
+    "IgnoreCobweb": 0b,
+    "PositionOffsetZ": 5.0f,
+    "PositionOffsetY": 5.0f,
+    "PositionOffsetX": 5.0f,
+    "CanUpdate": 1b,
+    "LootMode": 0,
+    "TransformHasAI": 0b,
+    "AttackStrenght": 7,
+    "PersistenceRequired": 0b,
+    "id": "customnpcs:customnpc",
+    "IsStatue": 0b,
+    "MovingPatern": 0,
+    "NpcLines": {
+        "Lines": [
+        ]
+    },
+    "DefendFaction": 1b,
+    "FireIndirect": 2,
+    "NpcVisible": 0,
+    "LinkedNpcName": "",
+    "NpcScenes": {
+        "Scenes": [
+        ]
+    },
+    "Bukkit.updateLevel": 2,
+    "HitSound": "cfm:block.fridge.open",
+    "FindShelter": 2,
+    "SkinUsername": {
+        "Id": [I;1011779262,1475628869,-2124888492,1913758872],
+        "Properties": {
+            "textures": [
+                {
+                    "Signature": "KmVp1/WuENIEa6G8TT3Z8kdmYMJtPkwLZoio8RMQR5i+RUCicvqmMF/8NBLFz/HE5B67AcxwPTF8034DNdOEENgtbZ8m5XW7i2nQV3bm6ovo8kZJpfDYc+NCR0MfJtW00eXrQeWYMcvtV39vB2tgZqydI4vVo8dg3brUaWz9sbKXwXvgJy6byclJyVmpF78Q/VuGtWz3l6nqg/FgJk1nkaxMowlf0luSSsihl2WCeWcYq7mh81943EfQR6lzavOfqO9G4Gm4FNNdvVt8VroBKR7W7ykaW+93A6tZbN42ZaP2S8ZlSjpq4IuVb3G0o+YW8/Dr10AxAewB56QubOSuQIqcYFIF13qdRjL3EJ1ILmVyRfT9jZ32oZCu8shgnpBNF0W0g6XFSO+qUTxarHzWKvPkuaDp+lGRIucIVWVBt1yCmIwxeO9LgtTxI2/mC3DqtuPlmbGotJV6DjPfEHP4zZOv/E+kS4jnVu08QSIJyyy8nXLMs6Pf+HyAhVaXY547yQ5pZKXvGYwpWMaVCG0eY31hoVLhleNdO5+PJxfisE1NY3BNATMAaDAIK8b7P5UfMqosj+V2fZFLTnfotsJEpQoPsCaMvewLhFSK/+QmSt73w96VSdsvqlNkxG3cHCrISu4hKOpCAbrneB5dbxYFmkdc6mimKJchHWmvzaEXLIE=",
+                    "Value": "ewogICJ0aW1lc3RhbXAiIDogMTcyNTc1MDg5NTA3OCwKICAicHJvZmlsZUlkIiA6ICIzYzRlODZiZTU3ZjQ0ZjQ1ODE1OGM2NTQ3MjExYTQ5OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFbFJpY2hNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80OWY1ODJjMzA4YTZlZmRhNmRjNGY2YzFjMTQ0OWNlNmQzNWIwMTQ0Nzg2ODNkZWY5MTQ2MWYxZmQ5MDJmOTc1IgogICAgfSwKICAgICJDQVBFIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lN2RmZWExNmRjODNjOTdkZjAxYTEyZmFiYmQxMjE2MzU5YzBjZDBlYTQyZjk5OTliNmU5N2M1ODQ5NjNlOTgwIgogICAgfQogIH0KfQ=="
+                }
+            ]
+        },
+        "Name": "ElRichMC"
+    },
+    "Air": 300s,
+    "CitadelData": {
+    },
+    "Orientation": 0,
+    "ScriptLanguage": "ECMAScript",
+    "HandItems": [
+        {
+        },
+        {
+        }
+    ],
+    "KnockBack": 4,
+    "TransformHasJob": 0b,
+    "ArmorDropChances": [
+        0.085f,
+        0.085f,
+        0.085f,
+        0.085f
+    ],
+    "BurnInSun": 0b,
+    "StandingState": 0,
+    "AttackInvisible": 0b,
+    "NpcInteractNPCLines": {
+        "Lines": [
+        ]
+    },
+    "HurtTime": 0s,
+    "WorldUUIDLeast": -7058196939895938252L,
+    "WalkingRange": 10,
+    "ShotCount": 2,
+    "pDur": 1,
+    "AttackRange": 11,
+    "NpcKillLines": {
+        "Lines": [
+        ]
+    },
+    "PotionImmune": 0b,
+    "AvoidsSun": 0b,
+    "Texture": "customnpcs:textures/entity/humanmale/steve.png",
+    "NpcJob": 0,
+    "BurstCount": 6,
+    "NpcAttackLines": {
+        "Lines": [
+        ]
+    },
+    "pSpeed": 50,
+    "pArea": 0,
+    "DeathTime": 0s,
+    "pImpact": 3,
+    "MoveState": 5,
+    "Bukkit.Aware": 1b,
+    "pRender3D": 1b,
+    "Motion": [
+        0.0d,
+        -0.0784000015258789d,
+        0.0d
+    ],
+    "CombatRegen": 3,
+    "NpcsTimers": [
+    ],
+    "MarkovGender": 0,
+    "pEffect": 20,
+    "DistanceToMelee": 5,
+    "NpcStepSound": "",
+    "FireRate": 6,
+    "LeftHanded": 0b,
+    "pEffAmp": 0,
+    "OnGround": 1b,
+    "ImmuneToFire": 0b,
+    "NpcKilledLines": {
+        "Lines": [
+        ]
+    },
+    "Fire": -1s,
+    "ArmorItems": [
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "DisablePitch": 0b,
+    "pPhysics": 0b,
+    "TransformHasInv": 0b,
+    "NpcInteractLines": {
+        "Lines": [
+        ]
+    },
+    "HurtByTimestamp": 113117,
+    "pSpin": 1b,
+    "NpcHurtSound": "minecraft:entity.player.hurt",
+    "pTrail": 1,
+    "CreatureType": 0,
+    "Attributes": [
+        {
+            "Base": 0.800000011920929d,
+            "Name": "minecraft:generic.flying_speed"
+        },
+        {
+            "Base": 32.0d,
+            "Name": "minecraft:generic.follow_range"
+        },
+        {
+            "Base": 0.0d,
+            "Name": "minecraft:generic.knockback_resistance"
+        },
+        {
+            "Base": 500.0d,
+            "Name": "minecraft:generic.max_health"
+        },
+        {
+            "Base": 7.0d,
+            "Name": "minecraft:generic.attack_damage"
+        },
+        {
+            "Base": 0.08d,
+            "Name": "forge:entity_gravity"
+        },
+        {
+            "Base": 0.4000000059604645d,
+            "Name": "minecraft:generic.movement_speed"
+        }
+    ],
+    "Invulnerable": 0b,
+    "TransformHasDisplay": 0b,
+    "NoFallDamage": 0b,
+    "AbsorptionAmount": 0.0f,
+    "TransformHasRole": 0b,
+    "Name": "El Rich",
+    "FallDistance": 0.0f,
+    "SkinColor": 16777215,
+    "NpcIdleSound": "",
+    "Weapons": [
+        {
+            "Slot": 0b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:netherite_sword",
+            "Count": 1b,
+            "tag": {
+                "Damage": 0
+            }
+        },
+        {
+            "Slot": 1b,
+            "ForgeCaps": {
+                "customnpcs:itemscripteddata": {
+                }
+            },
+            "id": "minecraft:bedrock",
+            "Count": 1b
+        }
+    ],
+    "NPCDialogOptions": [
+    ],
+    "WorldUUIDMost": -8793947985436324505L,
+    "AggroRange": 64,
+    "DirectLOS": 1b,
+    "HealthRegen": 1,
+    "ForgeCaps": {
+        "mowziesmobs:ability": {
+        },
+        "mowziesmobs:frozen": {
+            "frozenYaw": 0.0f,
+            "freezeProgress": 0.0f,
+            "frozenPitch": 0.0f,
+            "freezeDecayDelay": 0,
+            "prevHasAI": 1b,
+            "frozenYawHead": 0.0f,
+            "frozen": 0b,
+            "frozenLimbSwingAmount": 0.0f,
+            "prevFrozen": 0b,
+            "frozenRenderYawOffset": 0.0f,
+            "frozenSwingProgress": 0.0f
+        },
+        "citadel:extended_entity_data_citadel": {
+        }
+    },
+    "HandDropChances": [
+        0.085f,
+        0.085f
+    ],
+    "NpcModelData": {
+        "LegsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.012000002f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "BodyConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "Eyes": {
+            "Pattern": 0b,
+            "Glint": 1b,
+            "Type": -1b,
+            "PositionY": 1,
+            "SkinColor": 11830381,
+            "PlayerTexture": 0b,
+            "Color": 8339378,
+            "BrowColor": 5982516,
+            "BrowThickness": 4
+        },
+        "LegParts": {
+            "Pattern": 0b,
+            "Type": 0b,
+            "PlayerTexture": 0b,
+            "Color": 16777215
+        },
+        "Parts": [
+        ],
+        "SimpleRender": 0b,
+        "ArmsConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        },
+        "ExtraData": {
+        },
+        "HeadConfig": {
+            "NotShared": 0b,
+            "ScaleZ": 1.0f,
+            "TransZ": 0.0f,
+            "TransY": 0.0f,
+            "TransX": 0.0f,
+            "ScaleY": 1.0f,
+            "ScaleX": 1.0f
+        }
+    },
+    "Spigot.ticksLived": 113176,
+    "VisibleAvailability": {
+        "AvailabilityQuestId": -1,
+        "AvailabilityScoreboardType": 1,
+        "AvailabilityFactionStance": 0,
+        "AvailabilityScoreboard2Value": 1,
+        "AvailabilityQuest": 0,
+        "AvailabilityDialog4": 0,
+        "AvailabilityScoreboardObjective": "",
+        "AvailabilityDialog3": 0,
+        "AvailabilityQuest2": 0,
+        "AvailabilityQuest3": 0,
+        "AvailabilityScoreboard2Objective": "",
+        "AvailabilityQuest4": 0,
+        "ModRev": 18,
+        "AvailabilityDialog2": 0,
+        "AvailabilityDayTime": 0,
+        "AvailabilityFaction2Id": -1,
+        "AvailabilityScoreboardValue": 1,
+        "AvailabilityFaction": 0,
+        "AvailabilityDialog": 0,
+        "AvailabilityScoreboard2Type": 1,
+        "AvailabilityFaction2": 0,
+        "AvailabilityFactionId": -1,
+        "AvailabilityFaction2Stance": 0,
+        "AvailabilityDialogId": -1,
+        "AvailabilityQuest4Id": -1,
+        "AvailabilityQuest3Id": -1,
+        "AvailabilityQuest2Id": -1,
+        "AvailabilityDialog2Id": -1,
+        "AvailabilityDialog3Id": -1,
+        "AvailabilityDialog4Id": -1,
+        "AvailabilityMinPlayerLevel": 0
+    },
+    "minDelay": 20,
+    "DoorInteract": 2,
+    "MoveSpeed": 8,
+    "TransformEditingModus": 0b,
+    "UsingSkinUrl": 1b,
+    "SkinUrl": "",
+    "CanSwim": 1b,
+    "GroundSound": "minecraft:block.stone.break",
+    "MaxHealth": 500,
+    "HideBodyWhenKilled": 0b,
+    "AttackSpeed": 20,
+    "PotionDuration": 5,
+    "maxDelay": 40,
+    "ScriptEnabled": 0b,
+    "Role": 0,
+    "DropChance": [
+        {
+            "Integer": 100,
+            "Slot": 0
+        },
+        {
+            "Integer": 100,
+            "Slot": 1
+        },
+        {
+            "Integer": 100,
+            "Slot": 2
+        },
+        {
+            "Integer": 100,
+            "Slot": 3
+        },
+        {
+            "Integer": 100,
+            "Slot": 4
+        },
+        {
+            "Integer": 100,
+            "Slot": 5
+        },
+        {
+            "Integer": 100,
+            "Slot": 6
+        },
+        {
+            "Integer": 100,
+            "Slot": 7
+        },
+        {
+            "Integer": 100,
+            "Slot": 8
+        }
+    ],
+    "FactionPoints": {
+        "DecreaseFaction1Points": 0b,
+        "OptionFaction2Points": 100,
+        "OptionFactions1": -1,
+        "OptionFactions2": -1,
+        "OptionFaction1Points": 100,
+        "DecreaseFaction2Points": 0b
+    },
+    "pDamage": 8,
+    "KilledTime": 0L,
+    "AimWhileShooting": 0b,
+    "CanPickUpLoot": 0b,
+    "AttackOtherFactions": 1b,
+    "CanDrown": 1b,
+    "pSize": 20,
+    "CanSprint": 0b,
+    "CanLeap": 0b,
+    "TransformIsActive": 0b,
+    "ForgeData": {
+        "cnpcmarkdata": {
+            "marks": [
+            ]
+        },
+        "improvedmobs:Breaker": 0b,
+        "improvedmobs:Flyer": 0b,
+        "improvedmobs:DoEnchant": 1b,
+        "improvedmobs:trigger_shield": 1b
+    },
+    "MovingState": 1,
+    "MovingPos": 0,
+    "PotionAmp": 1,
+    "OnAttack": 0,
+    "FallFlying": 0b,
+    "MaxExp": 0,
+    "OrderedLines": 0b,
+    "PortalCooldown": 0,
+    "pGlows": 0b,
+    "TransformHasAdvanced": 0b,
+    "TransformHasStats": 0b,
+    "MovementType": 0,
+    "FiringSound": "cfm:block.fridge.close",
+    "ModRev": 18,
+    "Accuracy": 100,
+    "MinExp": 0,
+    "Armor": [
+    ],
+    "CloakTexture": "",
+    "GlowTexture": "",
+    "MaxFiringRange": 64,
+    "pXlr8": 0b,
+    "MarkovGeneratorId": 0,
+    "Scripts": [
+    ],
+    "Health": 500.0f,
+    "pStick": 1b,
+    "MovingPause": 1b,
+    "NpcDeathSound": "minecraft:entity.player.hurt",
+    "FactionID": 2,
+    "Title": "",
+    "TotalTicksAlive": 96217L,
+    "Rotation": [
+        132.54114f,
+        0.0f
+    ],
+    "ShowName": 0,
+    "npcInteracting": 1b,
+    "AvoidsWater": 0b,
+    "NoLivingAnimation": 0b,
+    "SpawnCycle": 3
+}

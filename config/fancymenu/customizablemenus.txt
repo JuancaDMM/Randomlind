@@ -1,0 +1,50 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screen.CustomizeSkinScreen {
+}
+
+net.minecraft.client.gui.screen.VideoSettingsScreen {
+}
+
+net.optifine.gui.GuiDetailSettingsOF {
+}
+
+net.optifine.gui.GuiAnimationSettingsOF {
+}
+
+net.optifine.gui.GuiPerformanceSettingsOF {
+}
+
+net.optifine.gui.GuiOtherSettingsOF {
+}
+
+net.optifine.gui.GuiQualitySettingsOF {
+}
+
+net.minecraft.client.gui.screen.ChatOptionsScreen {
+}
+
+net.minecraft.client.gui.AccessibilityScreen {
+}
+
+net.minecraft.client.gui.screen.OptionsSoundsScreen {
+}
+
+net.minecraft.client.gui.screen.LanguageScreen {
+}
+
+net.minecraft.client.gui.screen.ControlsScreen {
+}
+
+net.minecraft.client.gui.screen.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screen.OptionsScreen {
+}
+
+net.minecraft.client.gui.screen.MainMenuScreen {
+}
+
+net.minecraft.client.gui.screen.WorldSelectionScreen {
+}
+
