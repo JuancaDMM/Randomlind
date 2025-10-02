@@ -559,34 +559,9 @@
       "size": 1234
     },
     {
-      "path": "config/fancymenu/customization/1.txt",
-      "sha256": "daee5f524e277fd8824a37eec489e8db55be525a4b6660b8683fe41988233b09",
-      "size": 359
-    },
-    {
-      "path": "config/fancymenu/customization/2.txt",
-      "sha256": "7dcab612af16f27a130219aa6d7705e7138d567d6a0cd9d3c41a820fc7d93514",
-      "size": 365
-    },
-    {
-      "path": "config/fancymenu/customization/3.txt",
-      "sha256": "c85fbd037f892bb44aa94ff60e5da77a81ad7b2bc94c087611431b672e556663",
-      "size": 342
-    },
-    {
-      "path": "config/fancymenu/customization/carga.txt",
-      "sha256": "d1b0bbb355cbab62ef34d5ae36d90bc42df7d9c01d2967a35dbd9b33ba5cdd38",
-      "size": 628
-    },
-    {
-      "path": "config/fancymenu/customization/menu.txt",
-      "sha256": "6453b279932722cc6e383e6fe8f8cbb351e3416f7376def9ca00341e3d6e8a63",
-      "size": 9291
-    },
-    {
-      "path": "config/fancymenu/customization/ra.txt",
-      "sha256": "8b0292a344ad5261c04e9251fc8dc358e8704b59f1f6c3fda133868fc53ce5d7",
-      "size": 650
+      "path": "config/fancymenu/customization/xd.txt",
+      "sha256": "d9e423d5db79e59ae98db56ae881b94776392d264b705e21b461b0112a3502e7",
+      "size": 614
     },
     {
       "path": "config/fancymenu/locals/de_de.local",

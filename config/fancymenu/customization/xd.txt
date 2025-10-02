@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  x = 179
+  width = 69
+  action = addbutton
+  actionid = 06bf1d12-9afd-43a4-bed6-865e6de6aeb01759437884555
+  y = 33
+  label = New Button
+  backgroundnormal = Randomsland Menu Stuff/optionsbutton2.png
+  height = 70
+}
+
