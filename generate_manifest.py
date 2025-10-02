@@ -8,6 +8,7 @@ import os
 import json
 import hashlib
 from pathlib import Path
+import argparse
 
 def calculate_sha256(file_path):
     """Calcular SHA256 de un archivo"""
@@ -17,8 +18,11 @@ def calculate_sha256(file_path):
             sha256_hash.update(byte_block)
     return sha256_hash.hexdigest()
 
-def generate_manifest(base_dir, version="1.0.1"):
-    """Generar manifest.json para el modpack"""
+def generate_manifest(base_dir, version="1.0.1", mode="all", output_filename=None):
+    """Generar manifest.json para el modpack.
+    mode: 'all' (por defecto) incluye mods y recursos; 'configs' incluye solo configuración (config, scripts, defaultconfigs, kubejs).
+    output_filename: nombre del archivo de salida, si no se especifica usa manifest.json o manifest-configs.json según el modo.
+    """
     
     base_path = Path(base_dir)
     manifest = {
@@ -28,8 +32,11 @@ def generate_manifest(base_dir, version="1.0.1"):
         "files": []
     }
     
-    # Directorios a incluir en el modpack
-    include_dirs = ['mods', 'config', 'scripts', 'defaultconfigs', 'kubejs', 'resourcepacks', 'shaderpacks', 'Randomsland Menu Stuff']
+    # Directorios a incluir en el modpack según el modo
+    if mode == 'configs':
+        include_dirs = ['config', 'scripts', 'defaultconfigs', 'kubejs']
+    else:
+        include_dirs = ['mods', 'config', 'scripts', 'defaultconfigs', 'kubejs', 'resourcepacks', 'shaderpacks', 'Randomsland Menu Stuff']
     
     print(f"Generando manifest para: {base_path}")
     print("=" * 50)
@@ -63,7 +70,9 @@ def generate_manifest(base_dir, version="1.0.1"):
                 print(f"✅ ({file_size} bytes)")
     
     # Guardar manifest
-    manifest_path = base_path / "manifest.json"
+    if output_filename is None:
+        output_filename = 'manifest-configs.json' if mode == 'configs' else 'manifest.json'
+    manifest_path = base_path / output_filename
     with open(manifest_path, 'w', encoding='utf-8') as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
     
@@ -77,9 +86,12 @@ def generate_manifest(base_dir, version="1.0.1"):
 if __name__ == "__main__":
     import sys
     
-    # Usar directorio actual o el especificado
-    modpack_dir = sys.argv[1] if len(sys.argv) > 1 else "."
-    version = sys.argv[2] if len(sys.argv) > 2 else "1.0.0"
+    parser = argparse.ArgumentParser(description="Generador de manifest para modpack")
+    parser.add_argument('modpack_dir', nargs='?', default='.', help='Directorio base del modpack (por defecto: .)')
+    parser.add_argument('--version', default='1.0.0', help='Versión a escribir en el manifest')
+    parser.add_argument('--mode', choices=['all', 'configs'], default='all', help='Modo de generación: all o configs')
+    parser.add_argument('--output', default=None, help='Nombre del archivo de salida (opcional)')
+    args = parser.parse_args()
     
     print("""
 ╔══════════════════════════════════════════════════╗
@@ -89,8 +101,9 @@ if __name__ == "__main__":
 """)
     
     try:
-        generate_manifest(modpack_dir, version)
-        print("\n🎉 ¡Listo! Sube manifest.json junto con tus archivos al servidor.")
+        generate_manifest(args.modpack_dir, args.version, args.mode, args.output)
+        out_name = args.output or ('manifest-configs.json' if args.mode == 'configs' else 'manifest.json')
+        print(f"\n🎉 ¡Listo! Sube {out_name} junto con tus archivos al servidor.")
     except Exception as e:
         print(f"\n❌ Error: {e}")
         sys.exit(1)
