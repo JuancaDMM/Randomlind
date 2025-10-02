@@ -549,6 +549,36 @@
       "size": 40
     },
     {
+      "path": "config/starterkit/starterkit.txt",
+      "sha256": "d0bf760d1c1d17136fc8e9cf2db05cc81b121965756de0ac9fc345bc5ff06181",
+      "size": 609
+    },
+    {
+      "path": "config/voicechat/translations.properties",
+      "sha256": "b8215b84232be41438ffb7c7304b57b0677c9cad49b717db59900872080adf20",
+      "size": 1133
+    },
+    {
+      "path": "config/voicechat/username-cache.json",
+      "sha256": "ed8c1fce5f856bf5e7e6b08acb82b98faa457a72fc5db5b62c6668b773201d0b",
+      "size": 502
+    },
+    {
+      "path": "config/voicechat/voicechat-client.properties",
+      "sha256": "b6c67b4510fe757e7e6a23605a6e479a39098aea98d612fcbea61256e56caaca",
+      "size": 3701
+    },
+    {
+      "path": "config/voicechat/voicechat-server.properties",
+      "sha256": "2b20c46f8251aac697a9f3d4f3dbd1bc30f91f10dba64909cf150e6f2be276f9",
+      "size": 1861
+    },
+    {
+      "path": "config/voicechat/voicechat-volumes.properties",
+      "sha256": "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5",
+      "size": 37
+    },
+    {
       "path": "config/waila/waila.json",
       "sha256": "8c7b2a732e48e36a57e193c634f1a955d9983cf03e2e509394e447ab9a69d736",
       "size": 1152
@@ -559,9 +589,34 @@
       "size": 1234
     },
     {
-      "path": "config/fancymenu/customization/xd.txt",
-      "sha256": "d9e423d5db79e59ae98db56ae881b94776392d264b705e21b461b0112a3502e7",
-      "size": 614
+      "path": "config/fancymenu/customization/1.txt",
+      "sha256": "daee5f524e277fd8824a37eec489e8db55be525a4b6660b8683fe41988233b09",
+      "size": 359
+    },
+    {
+      "path": "config/fancymenu/customization/2.txt",
+      "sha256": "7dcab612af16f27a130219aa6d7705e7138d567d6a0cd9d3c41a820fc7d93514",
+      "size": 365
+    },
+    {
+      "path": "config/fancymenu/customization/3.txt",
+      "sha256": "c85fbd037f892bb44aa94ff60e5da77a81ad7b2bc94c087611431b672e556663",
+      "size": 342
+    },
+    {
+      "path": "config/fancymenu/customization/carga.txt",
+      "sha256": "d1b0bbb355cbab62ef34d5ae36d90bc42df7d9c01d2967a35dbd9b33ba5cdd38",
+      "size": 628
+    },
+    {
+      "path": "config/fancymenu/customization/menu.txt",
+      "sha256": "6453b279932722cc6e383e6fe8f8cbb351e3416f7376def9ca00341e3d6e8a63",
+      "size": 9291
+    },
+    {
+      "path": "config/fancymenu/customization/ra.txt",
+      "sha256": "8b0292a344ad5261c04e9251fc8dc358e8704b59f1f6c3fda133868fc53ce5d7",
+      "size": 650
     },
     {
       "path": "config/fancymenu/locals/de_de.local",

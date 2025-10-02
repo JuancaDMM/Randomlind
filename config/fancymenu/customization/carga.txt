@@ -1,0 +1,37 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.ConnectingScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  baseheight = 657
+  action = autoscale
+  basewidth = 1280
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = Randomsland Menu Stuff/cargando.png
+  orientation = top-centered
+  x = -207
+  width = 421
+  action = addtexture
+  actionid = 2bcc901d-3b21-458d-9bcf-82a661bcf5db1724683412303
+  y = 109
+  height = 100
+}
+

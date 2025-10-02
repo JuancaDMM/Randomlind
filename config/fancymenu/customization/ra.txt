@@ -1,0 +1,29 @@
+type = menu
+
+customization-meta {
+  identifier = %fancymenu:universal_layout%
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  audio_source:3e6f3576-bcff-45e9-908a-876d4f4c69b51724684080266 = Randomsland Menu Stuff/menusong.ogg;EXTERNAL_LOCAL;40;0
+  orientation = top-left
+  loop = true
+  channel = master
+  x = 30
+  width = 50
+  action = custom_layout_element:fancymenu_extension:audio_item
+  actionid = 695fc9e3-a77e-4a11-a7b2-9810f20a58141724684070462
+  y = 24
+  once_per_session = false
+  height = 50
+}
+
