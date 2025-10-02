@@ -530,8 +530,8 @@
     },
     {
       "path": "config/fancymenu/config.txt",
-      "sha256": "7d43bbc8b5b868324ed4909e3b7a0a9461932241436bdf1a888321b0b8353b9c",
-      "size": 1751
+      "sha256": "7b25c433ad6edf0171ff59eefd30210fcf8b836a3d290f7faf437f35c0f78408",
+      "size": 1752
     },
     {
       "path": "config/fancymenu/customizablemenus.txt",
@@ -547,46 +547,6 @@
       "path": "config/fancymenu/user_variables.db",
       "sha256": "d2d55a621e0ca0765db2ffc20084e053b090e9076516e83b88a65b57a6d33557",
       "size": 40
-    },
-    {
-      "path": "config/starterkit/starterkit.txt",
-      "sha256": "d0bf760d1c1d17136fc8e9cf2db05cc81b121965756de0ac9fc345bc5ff06181",
-      "size": 609
-    },
-    {
-      "path": "config/voicechat/translations.properties",
-      "sha256": "b8215b84232be41438ffb7c7304b57b0677c9cad49b717db59900872080adf20",
-      "size": 1133
-    },
-    {
-      "path": "config/voicechat/username-cache.json",
-      "sha256": "ed8c1fce5f856bf5e7e6b08acb82b98faa457a72fc5db5b62c6668b773201d0b",
-      "size": 502
-    },
-    {
-      "path": "config/voicechat/voicechat-client.properties",
-      "sha256": "b6c67b4510fe757e7e6a23605a6e479a39098aea98d612fcbea61256e56caaca",
-      "size": 3701
-    },
-    {
-      "path": "config/voicechat/voicechat-server.properties",
-      "sha256": "2b20c46f8251aac697a9f3d4f3dbd1bc30f91f10dba64909cf150e6f2be276f9",
-      "size": 1861
-    },
-    {
-      "path": "config/voicechat/voicechat-volumes.properties",
-      "sha256": "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5",
-      "size": 37
-    },
-    {
-      "path": "config/waila/waila.json",
-      "sha256": "8c7b2a732e48e36a57e193c634f1a955d9983cf03e2e509394e447ab9a69d736",
-      "size": 1152
-    },
-    {
-      "path": "config/waila/waila_plugins.json",
-      "sha256": "078e463cf55260a55d01c2e7febbcf84dc8e84521db0752db553d6792ef32126",
-      "size": 1234
     },
     {
       "path": "config/fancymenu/customization/1.txt",
