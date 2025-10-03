@@ -529,13 +529,23 @@
       "size": 3784436
     },
     {
+      "path": "config/DiscordRPC.toml",
+      "sha256": "15f5f172b5bed9457113ad6a25d2b6a60081a54bce8cb20bb24ffeb801640369",
+      "size": 1337
+    },
+    {
+      "path": "config/iceandfire-client.toml",
+      "sha256": "a4dcf9cc2e7f541fe73ee2f9780694cb8e9c7738a0a06e2a456453c3a47a8b9d",
+      "size": 321
+    },
+    {
       "path": "config/fancymenu/config.txt",
-      "sha256": "7b25c433ad6edf0171ff59eefd30210fcf8b836a3d290f7faf437f35c0f78408",
-      "size": 1752
+      "sha256": "7d43bbc8b5b868324ed4909e3b7a0a9461932241436bdf1a888321b0b8353b9c",
+      "size": 1751
     },
     {
       "path": "config/fancymenu/customizablemenus.txt",
-      "sha256": "f3969c1ffd6086004f846d9803febea5e345d24fc13be3f2a89e2c2bb834fa2b",
+      "sha256": "9edb67a83f55077424536dd0591e716186ece7da057ba008280eb7e562ba6a21",
       "size": 840
     },
     {
@@ -622,6 +632,26 @@
       "path": "config/fancymenu/extensions/fmaudio/locals/en_us.local",
       "sha256": "d1a39200e583c953b6f56d972ffa0361fc5740e4f69809c22cf2e76486100396",
       "size": 3363
+    },
+    {
+      "path": "config/konkrete/locals/de_de.local",
+      "sha256": "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef",
+      "size": 369
+    },
+    {
+      "path": "config/konkrete/locals/en_us.local",
+      "sha256": "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a",
+      "size": 426
+    },
+    {
+      "path": "config/konkrete/locals/pl_pl.local",
+      "sha256": "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8",
+      "size": 313
+    },
+    {
+      "path": "config/konkrete/locals/pt_br.local",
+      "sha256": "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c",
+      "size": 322
     },
     {
       "path": "defaultconfigs/champions-affixes.toml",
