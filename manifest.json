@@ -540,8 +540,8 @@
     },
     {
       "path": "config/fancymenu/config.txt",
-      "sha256": "7d43bbc8b5b868324ed4909e3b7a0a9461932241436bdf1a888321b0b8353b9c",
-      "size": 1751
+      "sha256": "7b25c433ad6edf0171ff59eefd30210fcf8b836a3d290f7faf437f35c0f78408",
+      "size": 1752
     },
     {
       "path": "config/fancymenu/customizablemenus.txt",
